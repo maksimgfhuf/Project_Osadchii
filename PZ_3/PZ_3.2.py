@@ -1,9 +1,9 @@
 def is_leap_year(year):
-    """Проверяет, является ли год високосным"""
+    #Проверяет, является ли год високосным
     return (year % 4 == 0) and (year % 100 != 0 or year % 400 == 0)
 
 def get_days_in_year(year):
-    """Возвращает количество дней в году"""
+    #Возвращает количество дней в году
     return 366 if is_leap_year(year) else 365
 
 year = int(input("Введите год: "))
