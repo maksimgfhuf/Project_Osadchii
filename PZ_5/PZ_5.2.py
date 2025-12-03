@@ -3,13 +3,13 @@ def ShiftRight3(A, B, C):
     A, B, C = B, C, A
     return A, B, C
 try:
-    A1 = float(input("Введите A1: "))
-    B1 = float(input("Введите B1: "))
-    C1 = float(input("Введите C1: "))
+    A1 = int(input("Введите A1: "))
+    B1 = int(input("Введите B1: "))
+    C1 = int(input("Введите C1: "))
 
-    A2 = float(input("Введите A2: "))
-    B2 = float(input("Введите B2: "))
-    C2 = float(input("Введите C2: "))
+    A2 = int(input("Введите A2: "))
+    B2 = int(input("Введите B2: "))
+    C2 = int(input("Введите C2: "))
 
     A1, B1, C1 = ShiftRight3(A1, B1, C1)
     A2, B2, C2 = ShiftRight3(A2, B2, C2)
