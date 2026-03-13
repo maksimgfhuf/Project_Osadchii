@@ -11,8 +11,9 @@ perevod = {
     'друг': 'friend',
     'работа': 'work'
 }
-russkoe_slovo = 'кот'
+russkoe_slovo = input("Введите слово для перевода: ").lower()
 if russkoe_slovo in perevod:
     print(f"{russkoe_slovo} -> {perevod[russkoe_slovo]}")
 else:
     print(f"Слово '{russkoe_slovo}' не найдено в словаре")
+
